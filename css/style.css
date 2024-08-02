@@ -209,68 +209,97 @@
 
 /*** About ***/
 
-/*## about more elem start ##*/
-ftco-counter {
-    overflow-x: hidden;
-    position: relative;
-    padding: 5em 0; }
-    @media (max-width: 1199.98px) {
-      .ftco-counter {
-        background-position: center center !important; } }
-    .ftco-counter .block-18 {
-      display: block;
-      width: 100%; }
-      @media (max-width: 991.98px) {
-        .ftco-counter .block-18 {
-          margin-bottom: 2em; } }
-    .ftco-counter .icon {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      background: #b1b493;
-      position: relative; }
-      .ftco-counter .icon span {
-        font-size: 40px;
-        color: #fff; }
-    .ftco-counter .text {
-      width: calc(100% - 60px);
-      position: relative;
-      padding-left: 15px; }
-      @media (max-width: 767.98px) {
-        .ftco-counter .text {
-          width: 100%; } }
-      .ftco-counter .text .number {
-        line-height: 1;
-        font-weight: 700;
-        font-size: 30px;
-        color: rgba(0, 0, 0, 0.8);
-        display: block;
-        margin-bottom: 4px; }
-      .ftco-counter .text span {
-        font-weight: 600;
-        font-size: 15px;
-        color: #b1b493;
-        text-transform: uppercase; }
-    @media (max-width: 767.98px) {
-      .ftco-counter .counter-wrap {
-        margin-bottom: 20px; } }
-
-/*## about more elem end ##*/
-
-
 #about .years .display-1 {
-    font-size: 10rem;
-    line-height: 9rem;
+    /* font-size: 10rem;
+    line-height: 9rem; */
 }
 
 #about .years h5 {
-    letter-spacing: 30px;
-    margin-right: -30px;
+    /* letter-spacing: 30px;
+    margin-right: -30px; */
 }
+
+/*** new skills ***/
+.border-right {
+    border-right: 1px solid #dee2e6 !important; }
+/* 
+.border-primary {
+    border-color: #e63946 !important; } */
+
+.progress-circle .h4 {
+    color: #b1b493;
+    font-size: 22px; }
+  
+  .progress-circle .small {
+    font-weight: 600; }
+  
+  .progress-circle .progress {
+    width: 150px;
+    height: 150px;
+    background: none;
+    position: relative; }
+  
+  .progress-circle .progress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid #eee;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  
+  .progress-circle .progress > span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1; }
+  
+  .progress-circle .progress .progress-left {
+    left: 0; }
+  
+  .progress-circle .progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 0; }
+  
+  .progress-circle .progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    -ms-transform-origin: center left;
+    transform-origin: center left;
+    border-color: #1d3557 !important; }
+  
+  .progress-circle .progress .progress-right {
+    right: 0; }
+  
+  .progress-circle .progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    -ms-transform-origin: center right;
+    transform-origin: center right;
+    border-color: #1d3557 !important; }
+  
+  .progress-circle .progress .progress-value {
+    position: absolute;
+    top: 0;
+    left: 0; }
 
 
 /*** Skills ***/
-#skill .progress {
+/* #skill .progress {
     height: 5px;
     border-radius: 5px;
 }
@@ -279,7 +308,7 @@ ftco-counter {
     width: 0px;
     border-radius: 5px;
     transition: 3s;
-}
+}*/
 
 #skill .nav-pills .nav-link {
     color: var(--dark);
@@ -291,7 +320,7 @@ ftco-counter {
 
 #skill .tab-content hr {
     width: 30px;
-}
+} 
 
 
 /*** Service ***/
