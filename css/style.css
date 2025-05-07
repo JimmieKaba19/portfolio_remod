@@ -165,12 +165,8 @@
     display: block;
     position: relative;
     z-index: 3;
-    width: 0;
-    height: 0;
-    left: -1px;
-    border-left: 16px solid var(--primary);
-    border-top: 11px solid transparent;
-    border-bottom: 11px solid transparent;
+    font-size: 24px;
+    left: -3px; 
 }
 
 @keyframes pulse-border {
